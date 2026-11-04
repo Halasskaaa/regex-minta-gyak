@@ -15,19 +15,19 @@
         <label>Username: <br>
             <input type="text" name="username">
         </label>
-        <br>
-        <label>Nickname: <br>
-            <input type="text" name="nickname">
-        </label>
+
         <% if(locals.error) { %>
             <p><%= locals.error %></p>
         <% } %>
 
-        <% if(locals.error) { %>
+        <br>
+        <label>Nickname: <br>
+            <input type="text" name="nickname">
+        </label> <br>
+
+        <% if(locals.error2) { %>
             <p><%= locals.error2 %></p>
         <% } %>
-
-
 
         <br><button type="submit">Módosítás</button>
     </form>

@@ -26,7 +26,7 @@ export class AppController {
       }
     }
 
-    const userRegex_nickname = /^[a-z][a-z\d]*$/; 
+    const userRegex_nickname = /^[a-z][a-z\d]{2,}$/i; 
     if (!userRegex_nickname.test(body.nickname)) {
       return {
         error2: "Invalid nickname"
