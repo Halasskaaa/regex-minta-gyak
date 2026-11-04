@@ -4,12 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        <%= title %>
+         Profil szerkeztése
     </title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1><%= title %></h1>
-    Hello EJS!
+    <h1>Profil szerkeztése</h1>
+
+    <form method="post">
+        <label>Username: <br>
+            <input type="text" name="username">
+        </label>
+        <br>
+        <label>Nickname: <br>
+            <input type="text" name="nickname">
+        </label>
+        <% if(locals.error) { %>
+            <p><%= locals.error %></p>
+        <% } %>
+
+        <% if(locals.error) { %>
+            <p><%= locals.error2 %></p>
+        <% } %>
+
+
+
+        <br><button type="submit">Módosítás</button>
+    </form>
+
+
 </body>
 </html>

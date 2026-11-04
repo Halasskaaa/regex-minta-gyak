@@ -1,0 +1,6 @@
+Felhasználó:
+
+Username: csak kisbetű, betűvel kezdődik, utána betű v. smám (csak angol)
+Nickname: Min 3. karakter, kis/nagybetűt megengedünk, Betű, szám, szóköz, kötőjel
+Profilkép URL: "https://" -el kell kezdődjön, és ".jpg" vagy ".png"-vel végződjön
+Háttérszín: "#" és utána 6 db hex. számjegy
